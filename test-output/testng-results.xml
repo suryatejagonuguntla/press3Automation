@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81053" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:02:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81053" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:02:42Z">
+      <class name="press3AutomationTest.ScriptsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeSuite" is-config="true" duration-ms="56" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeTest" is-config="true" duration-ms="7141" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T10:01:28Z" finished-at="2019-06-28T10:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createScripts(java.util.Hashtable)[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="createScripts" duration-ms="31970" started-at="2019-06-28T10:01:29Z" data-provider="excelData" finished-at="2019-06-28T10:02:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{skillgroup=Complaint, iscompose=0, Data=C:\Users\Administrator\Desktop\rawData.xlsx, titleName=sample1, isDefault=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createScripts -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T10:01:29Z" finished-at="2019-06-28T10:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterMethod" is-config="true" duration-ms="6" started-at="2019-06-28T10:02:01Z" finished-at="2019-06-28T10:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-28T10:02:01Z" finished-at="2019-06-28T10:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createScripts(java.util.Hashtable)[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="createScripts" duration-ms="41243" started-at="2019-06-28T10:02:01Z" data-provider="excelData" finished-at="2019-06-28T10:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{skillgroup=feedback, iscompose=1, Data=[{
+ "section": "section1",
+ "topic": ["section1topic1", "section1topic2"],
+ "Description": ["section1Des1", "section1Des2"]
+}, {
+ "section": "section2",
+ "topic": ["section2topic1", "section2topic2"],
+ "Description": ["section2Des1", "section2Des2"]
+}, {
+ "section": "section3",
+ "topic": ["section3topic1", "section3topic2","section3topic3", "section3topic4"],
+ "Description": ["section3Des1", "section3Des2", "section3Des3", "section3Des4"]
+}], titleName=sample2, isDefault=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createScripts -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- press3AutomationTest.ScriptsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
