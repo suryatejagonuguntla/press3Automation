@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Test-class Suite]" parallel="tests">
+  <test thread-count="5" name="Test-class agent1(failed)" parallel="tests">
+    <parameter name="password" value="Press3@123"/>
+    <parameter name="profilename" value="52a96992.agent1"/>
+    <parameter name="username" value="automationagent1@press3.com"/>
     <classes>
-      <class name="press3AutomationTest.ScriptsTest">
+      <class name="press3AutomationTest.NewTest2">
         <methods>
           <include name="beforeSuite"/>
+          <include name="ftest" invocation-numbers="0"/>
           <include name="beforeMethod"/>
           <include name="beforeTest"/>
           <include name="afterSuite"/>
-          <include name="createScripts" invocation-numbers="0 1"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- press3AutomationTest.ScriptsTest -->
+      </class> <!-- press3AutomationTest.NewTest2 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test-class agent1(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

@@ -1,87 +1,384 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81053" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:02:42Z">
+  <suite name="allSuites" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81053" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:02:42Z">
-      <class name="press3AutomationTest.ScriptsTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeSuite" is-config="true" duration-ms="56" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:01:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeTest" is-config="true" duration-ms="7141" started-at="2019-06-28T10:01:21Z" finished-at="2019-06-28T10:01:28Z">
+  </suite> <!-- allSuites -->
+  <suite name="Test-class Suite" duration-ms="51464" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:27Z">
+    <groups>
+    </groups>
+    <test name="Test-class agent3" duration-ms="50758" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:26Z">
+      <class name="press3AutomationTest.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T10:01:28Z" finished-at="2019-06-28T10:01:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="createScripts(java.util.Hashtable)[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="createScripts" duration-ms="31970" started-at="2019-06-28T10:01:29Z" data-provider="excelData" finished-at="2019-06-28T10:02:01Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ftest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="ftest" duration-ms="45709" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{skillgroup=Complaint, iscompose=0, Data=C:\Users\Administrator\Desktop\rawData.xlsx, titleName=sample1, isDefault=0}]]>
+                <![CDATA[automationagent3@press3.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Press3@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwdvqhbo.agent3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createScripts -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T10:01:29Z" finished-at="2019-06-28T10:01:29Z">
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:21Z" finished-at="2019-07-09T10:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterMethod" is-config="true" duration-ms="6" started-at="2019-06-28T10:02:01Z" finished-at="2019-06-28T10:02:01Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="start" duration-ms="5001" started-at="2019-07-09T10:01:21Z" finished-at="2019-07-09T10:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:21Z" finished-at="2019-07-09T10:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-28T10:02:01Z" finished-at="2019-06-28T10:02:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createScripts(java.util.Hashtable)[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="createScripts" duration-ms="41243" started-at="2019-06-28T10:02:01Z" data-provider="excelData" finished-at="2019-06-28T10:02:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{skillgroup=feedback, iscompose=1, Data=[{
- "section": "section1",
- "topic": ["section1topic1", "section1topic2"],
- "Description": ["section1Des1", "section1Des2"]
-}, {
- "section": "section2",
- "topic": ["section2topic1", "section2topic2"],
- "Description": ["section2Des1", "section2Des2"]
-}, {
- "section": "section3",
- "topic": ["section3topic1", "section3topic2","section3topic3", "section3topic4"],
- "Description": ["section3Des1", "section3Des2", "section3Des3", "section3Des4"]
-}], titleName=sample2, isDefault=0}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createScripts -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-07-09T10:01:26Z" finished-at="2019-07-09T10:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:26Z" finished-at="2019-07-09T10:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.NewTest@75881071]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:26Z" finished-at="2019-07-09T10:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:press3AutomationTest.ScriptsTest@5ed828d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-28T10:02:42Z" finished-at="2019-06-28T10:02:42Z">
+      </class> <!-- press3AutomationTest.NewTest -->
+    </test> <!-- Test-class agent3 -->
+    <test name="Test-class agent1" duration-ms="50936" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:27Z">
+      <class name="press3AutomationTest.NewTest2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="ftest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="ftest" duration-ms="45898" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automationagent1@press3.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Press3@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[52a96992.agent1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #SideBarToggle2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WIN-832DGPR2RLO', ip: '192.168.72.179', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19892, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c750a160-1e1e-4677-8a49-f0f6bf7c2ec4
+*** Element info: {Using=id, value=SideBarToggle2}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #SideBarToggle2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WIN-832DGPR2RLO', ip: '192.168.72.179', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19892, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c750a160-1e1e-4677-8a49-f0f6bf7c2ec4
+*** Element info: {Using=id, value=SideBarToggle2}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at press3AutomationTest.NewTest2.ftest(NewTest2.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="start" duration-ms="5001" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.NewTest2@87f383f]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- press3AutomationTest.NewTest2 -->
+    </test> <!-- Test-class agent1 -->
+    <test name="Test-class agent2" duration-ms="51282" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:27Z">
+      <class name="press3AutomationTest.NewTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ftest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="ftest" duration-ms="46245" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automationagent2@press3.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Press3@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1scbqhnk.agent2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="start" duration-ms="5000" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.NewTest2@1d371b2d]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- press3AutomationTest.NewTest2 -->
+    </test> <!-- Test-class agent2 -->
+    <test name="Test-class agent4" duration-ms="51311" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:27Z">
+      <class name="press3AutomationTest.NewTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ftest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="ftest" duration-ms="46264" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automationagent4@press3.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Press3@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kirazsrw.agent4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="start" duration-ms="5003" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest2@2de8284b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- press3AutomationTest.NewTest2 -->
+    </test> <!-- Test-class agent4 -->
+    <test name="Test-class agent5" duration-ms="51464" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:27Z">
+      <class name="press3AutomationTest.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="beforeSuite" is-config="true" duration-ms="63" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ftest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="ftest" duration-ms="46417" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automationagent5@press3.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Press3@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[un9e355o.agent5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:00:36Z" finished-at="2019-07-09T10:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="start" duration-ms="5016" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:22Z" finished-at="2019-07-09T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:press3AutomationTest.NewTest@4fb64261]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-07-09T10:01:27Z" finished-at="2019-07-09T10:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- press3AutomationTest.ScriptsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- press3AutomationTest.NewTest -->
+    </test> <!-- Test-class agent5 -->
+  </suite> <!-- Test-class Suite -->
 </testng-results>

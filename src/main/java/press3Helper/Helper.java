@@ -80,11 +80,11 @@ public class Helper {
 		// System.setProperty("webdriver.chrome.driver",
 		// projectDirectory+"\\Drivers\\chromedriver.exe" );
 		System.out.println("Start before method");
-		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-		driver.get(Helper.domainUrl);
+//		driver = new FirefoxDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//
+//		driver.get(Helper.domainUrl);
 	}
 
 	@AfterTest
